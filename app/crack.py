@@ -144,4 +144,4 @@ class Brute:
 			for i in self.cp: print('\033[0;93m### '+str(i)+'\033[0m')
 			print('Your CP results saved in: out/cp.txt')
 		if (len(self.cp) == 0 and len(self.ok) == 0):
-			print('\n\n033[0;91mNo results found :(\033[0m')
+			print('\n\n\033[0;91mNo results found :(\033[0m')
