@@ -24,12 +24,16 @@ def main(self, cookie, url, config):
 		exit('\n\033[0;91mInvalids url!\033[0m')
 
 	output = re.findall('https:\/\/.*?\/(.*?)\/friends\?lst=', flist)
+	_output = re.findall('id=(.*?)&refid=', flist)
 
-	if len(output) == 0:
+	if len(output) == 0 and len(_output) == 0:
 		exit('\n\033[0;91mInvalids url!\033[0m')
+	elif len(output) != 0:
+		output = 'dump/'+output[0]+'.json'
+	else:
+		output = 'dump/'+_output[0]+'.json'
 
 	id = []
-	output = 'dump/'+output[0]+'.json'
 	print('')
 	while True:
 		try:
