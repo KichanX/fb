@@ -130,7 +130,7 @@ class Brute:
 				if self.setpw[0] != '':
 					break
 				
-		th(40).map(self.brute, self.target)
+		th(30).map(self.brute, self.target)
 		self.results()
 		exit()
 
