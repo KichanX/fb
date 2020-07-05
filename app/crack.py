@@ -1,15 +1,15 @@
 #!usr/bin/python2.7
 # coding=utf-8
 
-#######################################################
-# Name           : Multi BF (MBF) <cookie method>     #
-# File           : crack.py                           #
-# Author         : DulLah                             #
-# Github         : https://github.com/dz-id           #
-# Facebook       : https://www.facebook.com/dulahz    #
-# Telegram       : https://t.me/unikers               #
-# Python version : 2.7                                #
-#######################################################
+######################################################
+# Name           : Multi BF (MBF) <cookie method>    #
+# File           : crack.py                          #
+# Author         : KICHAN                            #
+# Github         : https://github.com/KICHAN16       #
+# Facebook       : https://www.facebook.com/iankun16 #
+# YouTube        : https://youtube.com/tutorian      #
+# Python version : 2.7                               #
+######################################################
 
 import requests, json, sys, os, re
 from multiprocessing.pool import ThreadPool as th
@@ -123,7 +123,7 @@ class Brute:
 			except: pass
 		if len(self.target) == 0:
 			exit("\n\033[0;91m Oops, id not found in file '%s'\033[0m"% file)
-		ask = raw_input('Use password defaults OR manual? [D/m]: ')
+		ask = raw_input('Gunakan password defaults Atau manual? [D/m]: ')
 		if ask.lower() == 'm':
 			while True:
 				print('\n\033[0;92mSet password use (,) for new password, EX: sayang,doraemon,bangsat\n\033[0m')
