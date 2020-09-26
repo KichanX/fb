@@ -1,7 +1,7 @@
 # Multi Brute Force
 
 cookies method with python2 version
-![MBF]()
+![MBF](https://github.com/KICHAN16/fb/tree/master/screenshot/mbf.jpg)
 
 ## Installation
 ```
